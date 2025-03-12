@@ -96,7 +96,7 @@ The "sensitivityanalyses" folder records the log information of solving randomly
 
 The "JDE" and "TTRS" folders records the log information of solving the joint decision and estimation (JDE) problem and two-trust-region subproblem (TTRS). Both of them include three folders: "Approximations," "Approximations2," and "Gurobi." In each folder, each file (named by "N") records the log information of solving the corresponding approximation or original problem with N variables. 
 
-The "unitbox" folder records the log information of solving randomly generated unitbox instances. This folder includes six folders: "Approximations," "Approximations2," "Gurobi," "lpRelax," "sdpRelax," and "socpRelax." In each folder, each file (named "N_M_D") records the log information of solving the corresponding approximation or original problem with N variables and M constraints. Note that D is the density (%) of the matrix and I is the instance id.
+The "unitbox" folder records the log information of solving randomly generated unitbox instances. This folder includes six folders: "Approximations," "Approximations2," "Gurobi," "lpRelax," "sdpRelax," and "socpRelax." In each folder, each file (named "N_M_D") records the log information of solving the corresponding approximation or original problem with N variables and M constraints. Note that D is the density (%) of the matrix.
 
 
 ## Run
