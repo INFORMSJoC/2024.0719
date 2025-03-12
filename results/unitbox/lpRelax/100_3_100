@@ -1,0 +1,1177 @@
+Set parameter Username
+Academic license - for non-commercial use only - expires 2025-12-10
+Set parameter TimeLimit to value 7200
+Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (mac64[arm] - Darwin 24.3.0 24D70)
+
+CPU model: Apple M1 Pro
+Thread count: 10 physical cores, 10 logical processors, using up to 10 threads
+
+Optimize a model with 60000 rows, 10100 columns and 9930000 nonzeros
+Model fingerprint: 0x1613f3aa
+Coefficient statistics:
+  Matrix range     [6e-06, 1e+03]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [6e+01, 2e+02]
+  RHS range        [1e+03, 1e+04]
+Presolve removed 10000 rows and 1 columns
+Presolve time: 2.22s
+Presolved: 50000 rows, 10099 columns, 9880000 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0   -1.8791616e+05   1.039840e+06   0.000000e+00      3s
+     337   -5.7000000e+03   0.000000e+00   0.000000e+00      3s
+
+Use crossover to convert LP symmetric solution to basic solution...
+Crossover log...
+
+    9500 PPushes remaining with PInf 0.0000000e+00                 3s
+    1090 PPushes remaining with PInf 0.0000000e+00                 6s
+       0 PPushes remaining with PInf 0.0000000e+00                 7s
+
+  Push phase complete: Pinf 0.0000000e+00, Dinf 0.0000000e+00      7s
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+    9840   -5.7000000e+03   0.000000e+00   0.000000e+00      7s
+
+Solved in 9840 iterations and 7.33 seconds (14.55 work units)
+Optimal objective -5.700000000e+03
+Objective: -5700.0
+Solution: [array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.)]
+Set parameter Username
+Academic license - for non-commercial use only - expires 2025-12-10
+Set parameter TimeLimit to value 7200
+Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (mac64[arm] - Darwin 24.3.0 24D70)
+
+CPU model: Apple M1 Pro
+Thread count: 10 physical cores, 10 logical processors, using up to 10 threads
+
+Optimize a model with 60000 rows, 10100 columns and 10010000 nonzeros
+Model fingerprint: 0x47c935ec
+Coefficient statistics:
+  Matrix range     [1e-02, 1e+03]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [2e+01, 4e+02]
+  RHS range        [1e+03, 1e+04]
+Presolve removed 10000 rows and 6 columns
+Presolve time: 2.09s
+Presolved: 50000 rows, 10094 columns, 9700000 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0   -3.3123224e+05   2.542780e+07   0.000000e+00      3s
+     397    2.2084236e+03   0.000000e+00   0.000000e+00      3s
+
+Use crossover to convert LP symmetric solution to basic solution...
+Crossover log...
+
+       0 DPushes remaining with DInf 0.0000000e+00                 5s
+
+       1 PPushes remaining with PInf 0.0000000e+00                 5s
+       0 PPushes remaining with PInf 0.0000000e+00                 5s
+
+  Push phase complete: Pinf 0.0000000e+00, Dinf 6.2811328e-03      5s
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+     601    2.2084236e+03   0.000000e+00   6.281133e-03      5s
+     602    2.2084236e+03   0.000000e+00   0.000000e+00      6s
+
+Solved in 602 iterations and 5.89 seconds (12.17 work units)
+Optimal objective  2.208423602e+03
+Objective: 2208.423601737665
+Solution: [array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(52.3100719), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(98.11352983), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.)]
+Set parameter Username
+Academic license - for non-commercial use only - expires 2025-12-10
+Set parameter TimeLimit to value 7200
+Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (mac64[arm] - Darwin 24.3.0 24D70)
+
+CPU model: Apple M1 Pro
+Thread count: 10 physical cores, 10 logical processors, using up to 10 threads
+
+Optimize a model with 60000 rows, 10100 columns and 9890000 nonzeros
+Model fingerprint: 0x4288e3e9
+Coefficient statistics:
+  Matrix range     [9e-04, 1e+03]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [3e+01, 4e+02]
+  RHS range        [1e+03, 1e+04]
+Presolve removed 10000 rows and 1 columns
+Presolve time: 2.69s
+Presolved: 50000 rows, 10099 columns, 9830000 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0   -3.6645756e+05   3.844682e+07   0.000000e+00      3s
+     363    3.0000000e+03   0.000000e+00   0.000000e+00      3s
+
+Use crossover to convert LP symmetric solution to basic solution...
+Crossover log...
+
+    9300 PPushes remaining with PInf 0.0000000e+00                 4s
+    2837 PPushes remaining with PInf 0.0000000e+00                 5s
+       0 PPushes remaining with PInf 0.0000000e+00                 7s
+
+  Push phase complete: Pinf 0.0000000e+00, Dinf 0.0000000e+00      7s
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+    9666    3.0000000e+03   0.000000e+00   0.000000e+00      8s
+
+Solved in 9666 iterations and 7.89 seconds (14.30 work units)
+Optimal objective  3.000000000e+03
+Objective: 3000.0
+Solution: [array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.)]
+Set parameter Username
+Academic license - for non-commercial use only - expires 2025-12-10
+Set parameter TimeLimit to value 7200
+Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (mac64[arm] - Darwin 24.3.0 24D70)
+
+CPU model: Apple M1 Pro
+Thread count: 10 physical cores, 10 logical processors, using up to 10 threads
+
+Optimize a model with 60000 rows, 10100 columns and 9970000 nonzeros
+Model fingerprint: 0x196f1807
+Coefficient statistics:
+  Matrix range     [7e-04, 1e+03]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [6e+01, 3e+02]
+  RHS range        [1e+03, 1e+04]
+Presolve removed 10000 rows and 3 columns
+Presolve time: 2.11s
+Presolved: 50000 rows, 10097 columns, 9810000 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0   -1.4890215e+05   6.550483e+06   0.000000e+00      3s
+     292    6.2000000e+03   0.000000e+00   0.000000e+00      3s
+
+Use crossover to convert LP symmetric solution to basic solution...
+Crossover log...
+
+    8000 PPushes remaining with PInf 0.0000000e+00                 3s
+       0 PPushes remaining with PInf 0.0000000e+00                 6s
+
+  Push phase complete: Pinf 0.0000000e+00, Dinf 0.0000000e+00      6s
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+    8295    6.2000000e+03   0.000000e+00   0.000000e+00      6s
+
+Solved in 8295 iterations and 6.20 seconds (11.72 work units)
+Optimal objective  6.200000000e+03
+Objective: 6200.0
+Solution: [array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.)]
+Set parameter Username
+Academic license - for non-commercial use only - expires 2025-12-10
+Set parameter TimeLimit to value 7200
+Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (mac64[arm] - Darwin 24.3.0 24D70)
+
+CPU model: Apple M1 Pro
+Thread count: 10 physical cores, 10 logical processors, using up to 10 threads
+
+Optimize a model with 60000 rows, 10100 columns and 9970000 nonzeros
+Model fingerprint: 0x03a7ab62
+Coefficient statistics:
+  Matrix range     [2e-03, 1e+03]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+01, 3e+02]
+  RHS range        [1e+03, 1e+04]
+Presolve removed 10000 rows and 6 columns
+Presolve time: 2.06s
+Presolved: 50000 rows, 10094 columns, 9660000 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0   -2.4092325e+05   1.453690e+07   0.000000e+00      3s
+     431    1.5948484e+03   0.000000e+00   0.000000e+00      3s
+
+Use crossover to convert LP symmetric solution to basic solution...
+Crossover log...
+
+       0 DPushes remaining with DInf 0.0000000e+00                 5s
+
+       0 PPushes remaining with PInf 0.0000000e+00                 5s
+
+  Push phase complete: Pinf 0.0000000e+00, Dinf 1.9669146e-15      5s
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+    1234    1.5948484e+03   0.000000e+00   0.000000e+00      6s
+
+Solved in 1234 iterations and 5.72 seconds (9.82 work units)
+Optimal objective  1.594848408e+03
+Objective: 1594.8484076351954
+Solution: [array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(23.63458056), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(66.38038669), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(146.83344039), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.)]
+Set parameter Username
+Academic license - for non-commercial use only - expires 2025-12-10
+Set parameter TimeLimit to value 7200
+Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (mac64[arm] - Darwin 24.3.0 24D70)
+
+CPU model: Apple M1 Pro
+Thread count: 10 physical cores, 10 logical processors, using up to 10 threads
+
+Optimize a model with 60000 rows, 10100 columns and 9930000 nonzeros
+Model fingerprint: 0xe5b3801f
+Coefficient statistics:
+  Matrix range     [5e-03, 1e+03]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [6e+01, 3e+02]
+  RHS range        [1e+03, 1e+04]
+Presolve removed 10000 rows and 1 columns
+Presolve time: 2.11s
+Presolved: 50000 rows, 10099 columns, 9880000 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0   -6.8452819e+05   5.925971e+07   0.000000e+00      3s
+     201    6.1000000e+03   0.000000e+00   0.000000e+00      3s
+
+Use crossover to convert LP symmetric solution to basic solution...
+Crossover log...
+
+    5800 PPushes remaining with PInf 0.0000000e+00                 3s
+       0 PPushes remaining with PInf 0.0000000e+00                 4s
+
+  Push phase complete: Pinf 0.0000000e+00, Dinf 0.0000000e+00      4s
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+    6004    6.1000000e+03   0.000000e+00   0.000000e+00      5s
+
+Solved in 6004 iterations and 4.94 seconds (7.88 work units)
+Optimal objective  6.100000000e+03
+Objective: 6100.0
+Solution: [array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.)]
+Set parameter Username
+Academic license - for non-commercial use only - expires 2025-12-10
+Set parameter TimeLimit to value 7200
+Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (mac64[arm] - Darwin 24.3.0 24D70)
+
+CPU model: Apple M1 Pro
+Thread count: 10 physical cores, 10 logical processors, using up to 10 threads
+
+Optimize a model with 60000 rows, 10100 columns and 9970000 nonzeros
+Model fingerprint: 0xd1859cac
+Coefficient statistics:
+  Matrix range     [9e-03, 1e+03]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [3e+01, 5e+02]
+  RHS range        [1e+03, 1e+04]
+Presolve removed 10000 rows and 4 columns
+Presolve time: 2.56s
+Presolved: 50000 rows, 10096 columns, 9760000 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0   -7.9956845e+05   6.445663e+07   0.000000e+00      3s
+     433    3.0166876e+03   0.000000e+00   0.000000e+00      3s
+
+Use crossover to convert LP symmetric solution to basic solution...
+Crossover log...
+
+       0 DPushes remaining with DInf 0.0000000e+00                 6s
+
+       0 PPushes remaining with PInf 0.0000000e+00                 6s
+
+  Push phase complete: Pinf 0.0000000e+00, Dinf 1.6679895e-15      6s
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+    1236    3.0166876e+03   0.000000e+00   0.000000e+00      7s
+
+Solved in 1236 iterations and 6.76 seconds (11.65 work units)
+Optimal objective  3.016687592e+03
+Objective: 3016.687592101017
+Solution: [array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(104.70962276), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(69.04480808), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(57.79901334), array(28.), array(28.), array(28.), array(28.), array(28.), array(97.13414791), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.)]
+Set parameter Username
+Academic license - for non-commercial use only - expires 2025-12-10
+Set parameter TimeLimit to value 7200
+Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (mac64[arm] - Darwin 24.3.0 24D70)
+
+CPU model: Apple M1 Pro
+Thread count: 10 physical cores, 10 logical processors, using up to 10 threads
+
+Optimize a model with 60000 rows, 10100 columns and 9950000 nonzeros
+Model fingerprint: 0xfef4bae6
+Coefficient statistics:
+  Matrix range     [8e-03, 1e+03]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+02, 3e+02]
+  RHS range        [1e+03, 1e+04]
+Presolve removed 10000 rows and 1 columns
+Presolve time: 2.21s
+Presolved: 50000 rows, 10099 columns, 9890000 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0   -1.7298403e+05   6.849169e+05   0.000000e+00      3s
+     385    1.0450458e+04   0.000000e+00   0.000000e+00      3s
+
+Use crossover to convert LP symmetric solution to basic solution...
+Crossover log...
+
+       0 DPushes remaining with DInf 0.0000000e+00                 5s
+
+      35 PPushes remaining with PInf 0.0000000e+00                 5s
+       0 PPushes remaining with PInf 0.0000000e+00                 5s
+
+  Push phase complete: Pinf 0.0000000e+00, Dinf 1.7039815e-15      5s
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+     759    1.0450458e+04   0.000000e+00   0.000000e+00      6s
+
+Solved in 759 iterations and 5.89 seconds (10.17 work units)
+Optimal objective  1.045045814e+04
+Objective: 10450.458138538525
+Solution: [array(100.), array(100.), array(100.), array(289.9974425), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(295.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(165.46069604), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.)]
+Set parameter Username
+Academic license - for non-commercial use only - expires 2025-12-10
+Set parameter TimeLimit to value 7200
+Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (mac64[arm] - Darwin 24.3.0 24D70)
+
+CPU model: Apple M1 Pro
+Thread count: 10 physical cores, 10 logical processors, using up to 10 threads
+
+Optimize a model with 60000 rows, 10100 columns and 9910000 nonzeros
+Model fingerprint: 0x3f1dd49d
+Coefficient statistics:
+  Matrix range     [5e-03, 1e+03]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [9e+01, 5e+02]
+  RHS range        [1e+03, 1e+04]
+Presolve removed 10000 rows and 5 columns
+Presolve time: 2.24s
+Presolved: 50000 rows, 10095 columns, 9660000 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0   -9.2567864e+05   6.701280e+07   0.000000e+00      3s
+     198    9.3000000e+03   0.000000e+00   0.000000e+00      3s
+
+Use crossover to convert LP symmetric solution to basic solution...
+Crossover log...
+
+    5600 PPushes remaining with PInf 0.0000000e+00                 3s
+       0 PPushes remaining with PInf 0.0000000e+00                 4s
+
+  Push phase complete: Pinf 0.0000000e+00, Dinf 0.0000000e+00      4s
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+    5801    9.3000000e+03   0.000000e+00   0.000000e+00      5s
+
+Solved in 5801 iterations and 4.95 seconds (7.62 work units)
+Optimal objective  9.300000000e+03
+Objective: 9300.0
+Solution: [array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.)]
+Set parameter Username
+Academic license - for non-commercial use only - expires 2025-12-10
+Set parameter TimeLimit to value 7200
+Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (mac64[arm] - Darwin 24.3.0 24D70)
+
+CPU model: Apple M1 Pro
+Thread count: 10 physical cores, 10 logical processors, using up to 10 threads
+
+Optimize a model with 60000 rows, 10100 columns and 9980000 nonzeros
+Model fingerprint: 0xe30469bd
+Coefficient statistics:
+  Matrix range     [6e-03, 1e+03]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+01, 2e+02]
+  RHS range        [1e+03, 1e+04]
+Presolve removed 10000 rows and 3 columns
+Presolve time: 2.18s
+Presolved: 50000 rows, 10097 columns, 9830000 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0   -5.7109581e+05   1.596879e+08   0.000000e+00      3s
+     419   -9.7969092e+02   0.000000e+00   0.000000e+00      3s
+
+Use crossover to convert LP symmetric solution to basic solution...
+Crossover log...
+
+       0 DPushes remaining with DInf 0.0000000e+00                 5s
+
+       1 PPushes remaining with PInf 0.0000000e+00                 5s
+       0 PPushes remaining with PInf 0.0000000e+00                 5s
+
+  Push phase complete: Pinf 0.0000000e+00, Dinf 1.7789021e-04      5s
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+     723   -9.7969092e+02   0.000000e+00   1.778902e-04      5s
+     797   -9.7969092e+02   0.000000e+00   0.000000e+00      6s
+
+Solved in 797 iterations and 6.29 seconds (12.76 work units)
+Optimal objective -9.796909232e+02
+Objective: -979.6909232259507
+Solution: [array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(7.94183891), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-7.63276214), array(-10.), array(-10.), array(-10.)]
+Set parameter Username
+Academic license - for non-commercial use only - expires 2025-12-10
+Set parameter TimeLimit to value 7200
+Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (mac64[arm] - Darwin 24.3.0 24D70)
+
+CPU model: Apple M1 Pro
+Thread count: 10 physical cores, 10 logical processors, using up to 10 threads
+
+Optimize a model with 60000 rows, 10100 columns and 9930000 nonzeros
+Model fingerprint: 0x1613f3aa
+Coefficient statistics:
+  Matrix range     [6e-06, 1e+03]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [6e+01, 2e+02]
+  RHS range        [1e+03, 1e+04]
+Presolve removed 10000 rows and 1 columns
+Presolve time: 2.22s
+Presolved: 50000 rows, 10099 columns, 9880000 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0   -1.8791616e+05   1.039840e+06   0.000000e+00      3s
+     337   -5.7000000e+03   0.000000e+00   0.000000e+00      3s
+
+Use crossover to convert LP symmetric solution to basic solution...
+Crossover log...
+
+    9500 PPushes remaining with PInf 0.0000000e+00                 3s
+    1090 PPushes remaining with PInf 0.0000000e+00                 6s
+       0 PPushes remaining with PInf 0.0000000e+00                 7s
+
+  Push phase complete: Pinf 0.0000000e+00, Dinf 0.0000000e+00      7s
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+    9840   -5.7000000e+03   0.000000e+00   0.000000e+00      7s
+
+Solved in 9840 iterations and 7.33 seconds (14.55 work units)
+Optimal objective -5.700000000e+03
+Objective: -5700.0
+Solution: [array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.)]
+Set parameter Username
+Academic license - for non-commercial use only - expires 2025-12-10
+Set parameter TimeLimit to value 7200
+Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (mac64[arm] - Darwin 24.3.0 24D70)
+
+CPU model: Apple M1 Pro
+Thread count: 10 physical cores, 10 logical processors, using up to 10 threads
+
+Optimize a model with 60000 rows, 10100 columns and 10010000 nonzeros
+Model fingerprint: 0x47c935ec
+Coefficient statistics:
+  Matrix range     [1e-02, 1e+03]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [2e+01, 4e+02]
+  RHS range        [1e+03, 1e+04]
+Presolve removed 10000 rows and 6 columns
+Presolve time: 2.09s
+Presolved: 50000 rows, 10094 columns, 9700000 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0   -3.3123224e+05   2.542780e+07   0.000000e+00      3s
+     397    2.2084236e+03   0.000000e+00   0.000000e+00      3s
+
+Use crossover to convert LP symmetric solution to basic solution...
+Crossover log...
+
+       0 DPushes remaining with DInf 0.0000000e+00                 5s
+
+       1 PPushes remaining with PInf 0.0000000e+00                 5s
+       0 PPushes remaining with PInf 0.0000000e+00                 5s
+
+  Push phase complete: Pinf 0.0000000e+00, Dinf 6.2811328e-03      5s
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+     601    2.2084236e+03   0.000000e+00   6.281133e-03      5s
+     602    2.2084236e+03   0.000000e+00   0.000000e+00      6s
+
+Solved in 602 iterations and 5.89 seconds (12.17 work units)
+Optimal objective  2.208423602e+03
+Objective: 2208.423601737665
+Solution: [array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(52.3100719), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(98.11352983), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.)]
+Set parameter Username
+Academic license - for non-commercial use only - expires 2025-12-10
+Set parameter TimeLimit to value 7200
+Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (mac64[arm] - Darwin 24.3.0 24D70)
+
+CPU model: Apple M1 Pro
+Thread count: 10 physical cores, 10 logical processors, using up to 10 threads
+
+Optimize a model with 60000 rows, 10100 columns and 9890000 nonzeros
+Model fingerprint: 0x4288e3e9
+Coefficient statistics:
+  Matrix range     [9e-04, 1e+03]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [3e+01, 4e+02]
+  RHS range        [1e+03, 1e+04]
+Presolve removed 10000 rows and 1 columns
+Presolve time: 2.69s
+Presolved: 50000 rows, 10099 columns, 9830000 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0   -3.6645756e+05   3.844682e+07   0.000000e+00      3s
+     363    3.0000000e+03   0.000000e+00   0.000000e+00      3s
+
+Use crossover to convert LP symmetric solution to basic solution...
+Crossover log...
+
+    9300 PPushes remaining with PInf 0.0000000e+00                 4s
+    2837 PPushes remaining with PInf 0.0000000e+00                 5s
+       0 PPushes remaining with PInf 0.0000000e+00                 7s
+
+  Push phase complete: Pinf 0.0000000e+00, Dinf 0.0000000e+00      7s
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+    9666    3.0000000e+03   0.000000e+00   0.000000e+00      8s
+
+Solved in 9666 iterations and 7.89 seconds (14.30 work units)
+Optimal objective  3.000000000e+03
+Objective: 3000.0
+Solution: [array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.)]
+Set parameter Username
+Academic license - for non-commercial use only - expires 2025-12-10
+Set parameter TimeLimit to value 7200
+Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (mac64[arm] - Darwin 24.3.0 24D70)
+
+CPU model: Apple M1 Pro
+Thread count: 10 physical cores, 10 logical processors, using up to 10 threads
+
+Optimize a model with 60000 rows, 10100 columns and 9970000 nonzeros
+Model fingerprint: 0x196f1807
+Coefficient statistics:
+  Matrix range     [7e-04, 1e+03]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [6e+01, 3e+02]
+  RHS range        [1e+03, 1e+04]
+Presolve removed 10000 rows and 3 columns
+Presolve time: 2.11s
+Presolved: 50000 rows, 10097 columns, 9810000 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0   -1.4890215e+05   6.550483e+06   0.000000e+00      3s
+     292    6.2000000e+03   0.000000e+00   0.000000e+00      3s
+
+Use crossover to convert LP symmetric solution to basic solution...
+Crossover log...
+
+    8000 PPushes remaining with PInf 0.0000000e+00                 3s
+       0 PPushes remaining with PInf 0.0000000e+00                 6s
+
+  Push phase complete: Pinf 0.0000000e+00, Dinf 0.0000000e+00      6s
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+    8295    6.2000000e+03   0.000000e+00   0.000000e+00      6s
+
+Solved in 8295 iterations and 6.20 seconds (11.72 work units)
+Optimal objective  6.200000000e+03
+Objective: 6200.0
+Solution: [array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.)]
+Set parameter Username
+Academic license - for non-commercial use only - expires 2025-12-10
+Set parameter TimeLimit to value 7200
+Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (mac64[arm] - Darwin 24.3.0 24D70)
+
+CPU model: Apple M1 Pro
+Thread count: 10 physical cores, 10 logical processors, using up to 10 threads
+
+Optimize a model with 60000 rows, 10100 columns and 9970000 nonzeros
+Model fingerprint: 0x03a7ab62
+Coefficient statistics:
+  Matrix range     [2e-03, 1e+03]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+01, 3e+02]
+  RHS range        [1e+03, 1e+04]
+Presolve removed 10000 rows and 6 columns
+Presolve time: 2.06s
+Presolved: 50000 rows, 10094 columns, 9660000 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0   -2.4092325e+05   1.453690e+07   0.000000e+00      3s
+     431    1.5948484e+03   0.000000e+00   0.000000e+00      3s
+
+Use crossover to convert LP symmetric solution to basic solution...
+Crossover log...
+
+       0 DPushes remaining with DInf 0.0000000e+00                 5s
+
+       0 PPushes remaining with PInf 0.0000000e+00                 5s
+
+  Push phase complete: Pinf 0.0000000e+00, Dinf 1.9669146e-15      5s
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+    1234    1.5948484e+03   0.000000e+00   0.000000e+00      6s
+
+Solved in 1234 iterations and 5.72 seconds (9.82 work units)
+Optimal objective  1.594848408e+03
+Objective: 1594.8484076351954
+Solution: [array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(23.63458056), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(66.38038669), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(146.83344039), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.)]
+Set parameter Username
+Academic license - for non-commercial use only - expires 2025-12-10
+Set parameter TimeLimit to value 7200
+Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (mac64[arm] - Darwin 24.3.0 24D70)
+
+CPU model: Apple M1 Pro
+Thread count: 10 physical cores, 10 logical processors, using up to 10 threads
+
+Optimize a model with 60000 rows, 10100 columns and 9930000 nonzeros
+Model fingerprint: 0xe5b3801f
+Coefficient statistics:
+  Matrix range     [5e-03, 1e+03]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [6e+01, 3e+02]
+  RHS range        [1e+03, 1e+04]
+Presolve removed 10000 rows and 1 columns
+Presolve time: 2.11s
+Presolved: 50000 rows, 10099 columns, 9880000 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0   -6.8452819e+05   5.925971e+07   0.000000e+00      3s
+     201    6.1000000e+03   0.000000e+00   0.000000e+00      3s
+
+Use crossover to convert LP symmetric solution to basic solution...
+Crossover log...
+
+    5800 PPushes remaining with PInf 0.0000000e+00                 3s
+       0 PPushes remaining with PInf 0.0000000e+00                 4s
+
+  Push phase complete: Pinf 0.0000000e+00, Dinf 0.0000000e+00      4s
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+    6004    6.1000000e+03   0.000000e+00   0.000000e+00      5s
+
+Solved in 6004 iterations and 4.94 seconds (7.88 work units)
+Optimal objective  6.100000000e+03
+Objective: 6100.0
+Solution: [array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.)]
+Set parameter Username
+Academic license - for non-commercial use only - expires 2025-12-10
+Set parameter TimeLimit to value 7200
+Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (mac64[arm] - Darwin 24.3.0 24D70)
+
+CPU model: Apple M1 Pro
+Thread count: 10 physical cores, 10 logical processors, using up to 10 threads
+
+Optimize a model with 60000 rows, 10100 columns and 9970000 nonzeros
+Model fingerprint: 0xd1859cac
+Coefficient statistics:
+  Matrix range     [9e-03, 1e+03]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [3e+01, 5e+02]
+  RHS range        [1e+03, 1e+04]
+Presolve removed 10000 rows and 4 columns
+Presolve time: 2.56s
+Presolved: 50000 rows, 10096 columns, 9760000 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0   -7.9956845e+05   6.445663e+07   0.000000e+00      3s
+     433    3.0166876e+03   0.000000e+00   0.000000e+00      3s
+
+Use crossover to convert LP symmetric solution to basic solution...
+Crossover log...
+
+       0 DPushes remaining with DInf 0.0000000e+00                 6s
+
+       0 PPushes remaining with PInf 0.0000000e+00                 6s
+
+  Push phase complete: Pinf 0.0000000e+00, Dinf 1.6679895e-15      6s
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+    1236    3.0166876e+03   0.000000e+00   0.000000e+00      7s
+
+Solved in 1236 iterations and 6.76 seconds (11.65 work units)
+Optimal objective  3.016687592e+03
+Objective: 3016.687592101017
+Solution: [array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(104.70962276), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(69.04480808), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(57.79901334), array(28.), array(28.), array(28.), array(28.), array(28.), array(97.13414791), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.)]
+Set parameter Username
+Academic license - for non-commercial use only - expires 2025-12-10
+Set parameter TimeLimit to value 7200
+Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (mac64[arm] - Darwin 24.3.0 24D70)
+
+CPU model: Apple M1 Pro
+Thread count: 10 physical cores, 10 logical processors, using up to 10 threads
+
+Optimize a model with 60000 rows, 10100 columns and 9950000 nonzeros
+Model fingerprint: 0xfef4bae6
+Coefficient statistics:
+  Matrix range     [8e-03, 1e+03]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+02, 3e+02]
+  RHS range        [1e+03, 1e+04]
+Presolve removed 10000 rows and 1 columns
+Presolve time: 2.21s
+Presolved: 50000 rows, 10099 columns, 9890000 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0   -1.7298403e+05   6.849169e+05   0.000000e+00      3s
+     385    1.0450458e+04   0.000000e+00   0.000000e+00      3s
+
+Use crossover to convert LP symmetric solution to basic solution...
+Crossover log...
+
+       0 DPushes remaining with DInf 0.0000000e+00                 5s
+
+      35 PPushes remaining with PInf 0.0000000e+00                 5s
+       0 PPushes remaining with PInf 0.0000000e+00                 5s
+
+  Push phase complete: Pinf 0.0000000e+00, Dinf 1.7039815e-15      5s
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+     759    1.0450458e+04   0.000000e+00   0.000000e+00      6s
+
+Solved in 759 iterations and 5.89 seconds (10.17 work units)
+Optimal objective  1.045045814e+04
+Objective: 10450.458138538525
+Solution: [array(100.), array(100.), array(100.), array(289.9974425), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(295.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(165.46069604), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.)]
+Set parameter Username
+Academic license - for non-commercial use only - expires 2025-12-10
+Set parameter TimeLimit to value 7200
+Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (mac64[arm] - Darwin 24.3.0 24D70)
+
+CPU model: Apple M1 Pro
+Thread count: 10 physical cores, 10 logical processors, using up to 10 threads
+
+Optimize a model with 60000 rows, 10100 columns and 9910000 nonzeros
+Model fingerprint: 0x3f1dd49d
+Coefficient statistics:
+  Matrix range     [5e-03, 1e+03]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [9e+01, 5e+02]
+  RHS range        [1e+03, 1e+04]
+Presolve removed 10000 rows and 5 columns
+Presolve time: 2.24s
+Presolved: 50000 rows, 10095 columns, 9660000 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0   -9.2567864e+05   6.701280e+07   0.000000e+00      3s
+     198    9.3000000e+03   0.000000e+00   0.000000e+00      3s
+
+Use crossover to convert LP symmetric solution to basic solution...
+Crossover log...
+
+    5600 PPushes remaining with PInf 0.0000000e+00                 3s
+       0 PPushes remaining with PInf 0.0000000e+00                 4s
+
+  Push phase complete: Pinf 0.0000000e+00, Dinf 0.0000000e+00      4s
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+    5801    9.3000000e+03   0.000000e+00   0.000000e+00      5s
+
+Solved in 5801 iterations and 4.95 seconds (7.62 work units)
+Optimal objective  9.300000000e+03
+Objective: 9300.0
+Solution: [array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.)]
+Set parameter Username
+Academic license - for non-commercial use only - expires 2025-12-10
+Set parameter TimeLimit to value 7200
+Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (mac64[arm] - Darwin 24.3.0 24D70)
+
+CPU model: Apple M1 Pro
+Thread count: 10 physical cores, 10 logical processors, using up to 10 threads
+
+Optimize a model with 60000 rows, 10100 columns and 9980000 nonzeros
+Model fingerprint: 0xe30469bd
+Coefficient statistics:
+  Matrix range     [6e-03, 1e+03]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+01, 2e+02]
+  RHS range        [1e+03, 1e+04]
+Presolve removed 10000 rows and 3 columns
+Presolve time: 2.18s
+Presolved: 50000 rows, 10097 columns, 9830000 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0   -5.7109581e+05   1.596879e+08   0.000000e+00      3s
+     419   -9.7969092e+02   0.000000e+00   0.000000e+00      3s
+
+Use crossover to convert LP symmetric solution to basic solution...
+Crossover log...
+
+       0 DPushes remaining with DInf 0.0000000e+00                 5s
+
+       1 PPushes remaining with PInf 0.0000000e+00                 5s
+       0 PPushes remaining with PInf 0.0000000e+00                 5s
+
+  Push phase complete: Pinf 0.0000000e+00, Dinf 1.7789021e-04      5s
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+     723   -9.7969092e+02   0.000000e+00   1.778902e-04      5s
+     797   -9.7969092e+02   0.000000e+00   0.000000e+00      6s
+
+Solved in 797 iterations and 6.29 seconds (12.76 work units)
+Optimal objective -9.796909232e+02
+Objective: -979.6909232259507
+Solution: [array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(7.94183891), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-7.63276214), array(-10.), array(-10.), array(-10.)]
+
+Set parameter Username
+Academic license - for non-commercial use only - expires 2025-12-10
+Set parameter TimeLimit to value 7200
+Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (mac64[arm] - Darwin 24.3.0 24D70)
+
+CPU model: Apple M1 Pro
+Thread count: 10 physical cores, 10 logical processors, using up to 10 threads
+
+Optimize a model with 60000 rows, 10100 columns and 9930000 nonzeros
+Model fingerprint: 0x1613f3aa
+Coefficient statistics:
+  Matrix range     [6e-06, 1e+03]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [6e+01, 2e+02]
+  RHS range        [1e+03, 1e+04]
+Presolve removed 10000 rows and 1 columns
+Presolve time: 2.22s
+Presolved: 50000 rows, 10099 columns, 9880000 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0   -1.8791616e+05   1.039840e+06   0.000000e+00      3s
+     337   -5.7000000e+03   0.000000e+00   0.000000e+00      3s
+
+Use crossover to convert LP symmetric solution to basic solution...
+Crossover log...
+
+    9500 PPushes remaining with PInf 0.0000000e+00                 3s
+    1090 PPushes remaining with PInf 0.0000000e+00                 6s
+       0 PPushes remaining with PInf 0.0000000e+00                 7s
+
+  Push phase complete: Pinf 0.0000000e+00, Dinf 0.0000000e+00      7s
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+    9840   -5.7000000e+03   0.000000e+00   0.000000e+00      7s
+
+Solved in 9840 iterations and 7.33 seconds (14.55 work units)
+Optimal objective -5.700000000e+03
+Objective: -5700.0
+Solution: [array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.), array(-57.)]
+Set parameter Username
+Academic license - for non-commercial use only - expires 2025-12-10
+Set parameter TimeLimit to value 7200
+Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (mac64[arm] - Darwin 24.3.0 24D70)
+
+CPU model: Apple M1 Pro
+Thread count: 10 physical cores, 10 logical processors, using up to 10 threads
+
+Optimize a model with 60000 rows, 10100 columns and 10010000 nonzeros
+Model fingerprint: 0x47c935ec
+Coefficient statistics:
+  Matrix range     [1e-02, 1e+03]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [2e+01, 4e+02]
+  RHS range        [1e+03, 1e+04]
+Presolve removed 10000 rows and 6 columns
+Presolve time: 2.09s
+Presolved: 50000 rows, 10094 columns, 9700000 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0   -3.3123224e+05   2.542780e+07   0.000000e+00      3s
+     397    2.2084236e+03   0.000000e+00   0.000000e+00      3s
+
+Use crossover to convert LP symmetric solution to basic solution...
+Crossover log...
+
+       0 DPushes remaining with DInf 0.0000000e+00                 5s
+
+       1 PPushes remaining with PInf 0.0000000e+00                 5s
+       0 PPushes remaining with PInf 0.0000000e+00                 5s
+
+  Push phase complete: Pinf 0.0000000e+00, Dinf 6.2811328e-03      5s
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+     601    2.2084236e+03   0.000000e+00   6.281133e-03      5s
+     602    2.2084236e+03   0.000000e+00   0.000000e+00      6s
+
+Solved in 602 iterations and 5.89 seconds (12.17 work units)
+Optimal objective  2.208423602e+03
+Objective: 2208.423601737665
+Solution: [array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(52.3100719), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(98.11352983), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.), array(21.)]
+Set parameter Username
+Academic license - for non-commercial use only - expires 2025-12-10
+Set parameter TimeLimit to value 7200
+Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (mac64[arm] - Darwin 24.3.0 24D70)
+
+CPU model: Apple M1 Pro
+Thread count: 10 physical cores, 10 logical processors, using up to 10 threads
+
+Optimize a model with 60000 rows, 10100 columns and 9890000 nonzeros
+Model fingerprint: 0x4288e3e9
+Coefficient statistics:
+  Matrix range     [9e-04, 1e+03]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [3e+01, 4e+02]
+  RHS range        [1e+03, 1e+04]
+Presolve removed 10000 rows and 1 columns
+Presolve time: 2.69s
+Presolved: 50000 rows, 10099 columns, 9830000 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0   -3.6645756e+05   3.844682e+07   0.000000e+00      3s
+     363    3.0000000e+03   0.000000e+00   0.000000e+00      3s
+
+Use crossover to convert LP symmetric solution to basic solution...
+Crossover log...
+
+    9300 PPushes remaining with PInf 0.0000000e+00                 4s
+    2837 PPushes remaining with PInf 0.0000000e+00                 5s
+       0 PPushes remaining with PInf 0.0000000e+00                 7s
+
+  Push phase complete: Pinf 0.0000000e+00, Dinf 0.0000000e+00      7s
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+    9666    3.0000000e+03   0.000000e+00   0.000000e+00      8s
+
+Solved in 9666 iterations and 7.89 seconds (14.30 work units)
+Optimal objective  3.000000000e+03
+Objective: 3000.0
+Solution: [array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.), array(30.)]
+Set parameter Username
+Academic license - for non-commercial use only - expires 2025-12-10
+Set parameter TimeLimit to value 7200
+Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (mac64[arm] - Darwin 24.3.0 24D70)
+
+CPU model: Apple M1 Pro
+Thread count: 10 physical cores, 10 logical processors, using up to 10 threads
+
+Optimize a model with 60000 rows, 10100 columns and 9970000 nonzeros
+Model fingerprint: 0x196f1807
+Coefficient statistics:
+  Matrix range     [7e-04, 1e+03]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [6e+01, 3e+02]
+  RHS range        [1e+03, 1e+04]
+Presolve removed 10000 rows and 3 columns
+Presolve time: 2.11s
+Presolved: 50000 rows, 10097 columns, 9810000 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0   -1.4890215e+05   6.550483e+06   0.000000e+00      3s
+     292    6.2000000e+03   0.000000e+00   0.000000e+00      3s
+
+Use crossover to convert LP symmetric solution to basic solution...
+Crossover log...
+
+    8000 PPushes remaining with PInf 0.0000000e+00                 3s
+       0 PPushes remaining with PInf 0.0000000e+00                 6s
+
+  Push phase complete: Pinf 0.0000000e+00, Dinf 0.0000000e+00      6s
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+    8295    6.2000000e+03   0.000000e+00   0.000000e+00      6s
+
+Solved in 8295 iterations and 6.20 seconds (11.72 work units)
+Optimal objective  6.200000000e+03
+Objective: 6200.0
+Solution: [array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.), array(62.)]
+Set parameter Username
+Academic license - for non-commercial use only - expires 2025-12-10
+Set parameter TimeLimit to value 7200
+Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (mac64[arm] - Darwin 24.3.0 24D70)
+
+CPU model: Apple M1 Pro
+Thread count: 10 physical cores, 10 logical processors, using up to 10 threads
+
+Optimize a model with 60000 rows, 10100 columns and 9970000 nonzeros
+Model fingerprint: 0x03a7ab62
+Coefficient statistics:
+  Matrix range     [2e-03, 1e+03]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+01, 3e+02]
+  RHS range        [1e+03, 1e+04]
+Presolve removed 10000 rows and 6 columns
+Presolve time: 2.06s
+Presolved: 50000 rows, 10094 columns, 9660000 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0   -2.4092325e+05   1.453690e+07   0.000000e+00      3s
+     431    1.5948484e+03   0.000000e+00   0.000000e+00      3s
+
+Use crossover to convert LP symmetric solution to basic solution...
+Crossover log...
+
+       0 DPushes remaining with DInf 0.0000000e+00                 5s
+
+       0 PPushes remaining with PInf 0.0000000e+00                 5s
+
+  Push phase complete: Pinf 0.0000000e+00, Dinf 1.9669146e-15      5s
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+    1234    1.5948484e+03   0.000000e+00   0.000000e+00      6s
+
+Solved in 1234 iterations and 5.72 seconds (9.82 work units)
+Optimal objective  1.594848408e+03
+Objective: 1594.8484076351954
+Solution: [array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(23.63458056), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(66.38038669), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(146.83344039), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.), array(14.)]
+Set parameter Username
+Academic license - for non-commercial use only - expires 2025-12-10
+Set parameter TimeLimit to value 7200
+Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (mac64[arm] - Darwin 24.3.0 24D70)
+
+CPU model: Apple M1 Pro
+Thread count: 10 physical cores, 10 logical processors, using up to 10 threads
+
+Optimize a model with 60000 rows, 10100 columns and 9930000 nonzeros
+Model fingerprint: 0xe5b3801f
+Coefficient statistics:
+  Matrix range     [5e-03, 1e+03]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [6e+01, 3e+02]
+  RHS range        [1e+03, 1e+04]
+Presolve removed 10000 rows and 1 columns
+Presolve time: 2.11s
+Presolved: 50000 rows, 10099 columns, 9880000 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0   -6.8452819e+05   5.925971e+07   0.000000e+00      3s
+     201    6.1000000e+03   0.000000e+00   0.000000e+00      3s
+
+Use crossover to convert LP symmetric solution to basic solution...
+Crossover log...
+
+    5800 PPushes remaining with PInf 0.0000000e+00                 3s
+       0 PPushes remaining with PInf 0.0000000e+00                 4s
+
+  Push phase complete: Pinf 0.0000000e+00, Dinf 0.0000000e+00      4s
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+    6004    6.1000000e+03   0.000000e+00   0.000000e+00      5s
+
+Solved in 6004 iterations and 4.94 seconds (7.88 work units)
+Optimal objective  6.100000000e+03
+Objective: 6100.0
+Solution: [array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.), array(61.)]
+Set parameter Username
+Academic license - for non-commercial use only - expires 2025-12-10
+Set parameter TimeLimit to value 7200
+Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (mac64[arm] - Darwin 24.3.0 24D70)
+
+CPU model: Apple M1 Pro
+Thread count: 10 physical cores, 10 logical processors, using up to 10 threads
+
+Optimize a model with 60000 rows, 10100 columns and 9970000 nonzeros
+Model fingerprint: 0xd1859cac
+Coefficient statistics:
+  Matrix range     [9e-03, 1e+03]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [3e+01, 5e+02]
+  RHS range        [1e+03, 1e+04]
+Presolve removed 10000 rows and 4 columns
+Presolve time: 2.56s
+Presolved: 50000 rows, 10096 columns, 9760000 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0   -7.9956845e+05   6.445663e+07   0.000000e+00      3s
+     433    3.0166876e+03   0.000000e+00   0.000000e+00      3s
+
+Use crossover to convert LP symmetric solution to basic solution...
+Crossover log...
+
+       0 DPushes remaining with DInf 0.0000000e+00                 6s
+
+       0 PPushes remaining with PInf 0.0000000e+00                 6s
+
+  Push phase complete: Pinf 0.0000000e+00, Dinf 1.6679895e-15      6s
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+    1236    3.0166876e+03   0.000000e+00   0.000000e+00      7s
+
+Solved in 1236 iterations and 6.76 seconds (11.65 work units)
+Optimal objective  3.016687592e+03
+Objective: 3016.687592101017
+Solution: [array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(104.70962276), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(69.04480808), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(57.79901334), array(28.), array(28.), array(28.), array(28.), array(28.), array(97.13414791), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.), array(28.)]
+Set parameter Username
+Academic license - for non-commercial use only - expires 2025-12-10
+Set parameter TimeLimit to value 7200
+Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (mac64[arm] - Darwin 24.3.0 24D70)
+
+CPU model: Apple M1 Pro
+Thread count: 10 physical cores, 10 logical processors, using up to 10 threads
+
+Optimize a model with 60000 rows, 10100 columns and 9950000 nonzeros
+Model fingerprint: 0xfef4bae6
+Coefficient statistics:
+  Matrix range     [8e-03, 1e+03]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+02, 3e+02]
+  RHS range        [1e+03, 1e+04]
+Presolve removed 10000 rows and 1 columns
+Presolve time: 2.21s
+Presolved: 50000 rows, 10099 columns, 9890000 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0   -1.7298403e+05   6.849169e+05   0.000000e+00      3s
+     385    1.0450458e+04   0.000000e+00   0.000000e+00      3s
+
+Use crossover to convert LP symmetric solution to basic solution...
+Crossover log...
+
+       0 DPushes remaining with DInf 0.0000000e+00                 5s
+
+      35 PPushes remaining with PInf 0.0000000e+00                 5s
+       0 PPushes remaining with PInf 0.0000000e+00                 5s
+
+  Push phase complete: Pinf 0.0000000e+00, Dinf 1.7039815e-15      5s
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+     759    1.0450458e+04   0.000000e+00   0.000000e+00      6s
+
+Solved in 759 iterations and 5.89 seconds (10.17 work units)
+Optimal objective  1.045045814e+04
+Objective: 10450.458138538525
+Solution: [array(100.), array(100.), array(100.), array(289.9974425), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(295.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(165.46069604), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.), array(100.)]
+Set parameter Username
+Academic license - for non-commercial use only - expires 2025-12-10
+Set parameter TimeLimit to value 7200
+Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (mac64[arm] - Darwin 24.3.0 24D70)
+
+CPU model: Apple M1 Pro
+Thread count: 10 physical cores, 10 logical processors, using up to 10 threads
+
+Optimize a model with 60000 rows, 10100 columns and 9910000 nonzeros
+Model fingerprint: 0x3f1dd49d
+Coefficient statistics:
+  Matrix range     [5e-03, 1e+03]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [9e+01, 5e+02]
+  RHS range        [1e+03, 1e+04]
+Presolve removed 10000 rows and 5 columns
+Presolve time: 2.24s
+Presolved: 50000 rows, 10095 columns, 9660000 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0   -9.2567864e+05   6.701280e+07   0.000000e+00      3s
+     198    9.3000000e+03   0.000000e+00   0.000000e+00      3s
+
+Use crossover to convert LP symmetric solution to basic solution...
+Crossover log...
+
+    5600 PPushes remaining with PInf 0.0000000e+00                 3s
+       0 PPushes remaining with PInf 0.0000000e+00                 4s
+
+  Push phase complete: Pinf 0.0000000e+00, Dinf 0.0000000e+00      4s
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+    5801    9.3000000e+03   0.000000e+00   0.000000e+00      5s
+
+Solved in 5801 iterations and 4.95 seconds (7.62 work units)
+Optimal objective  9.300000000e+03
+Objective: 9300.0
+Solution: [array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.), array(93.)]
+Set parameter Username
+Academic license - for non-commercial use only - expires 2025-12-10
+Set parameter TimeLimit to value 7200
+Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (mac64[arm] - Darwin 24.3.0 24D70)
+
+CPU model: Apple M1 Pro
+Thread count: 10 physical cores, 10 logical processors, using up to 10 threads
+
+Optimize a model with 60000 rows, 10100 columns and 9980000 nonzeros
+Model fingerprint: 0xe30469bd
+Coefficient statistics:
+  Matrix range     [6e-03, 1e+03]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+01, 2e+02]
+  RHS range        [1e+03, 1e+04]
+Presolve removed 10000 rows and 3 columns
+Presolve time: 2.18s
+Presolved: 50000 rows, 10097 columns, 9830000 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0   -5.7109581e+05   1.596879e+08   0.000000e+00      3s
+     419   -9.7969092e+02   0.000000e+00   0.000000e+00      3s
+
+Use crossover to convert LP symmetric solution to basic solution...
+Crossover log...
+
+       0 DPushes remaining with DInf 0.0000000e+00                 5s
+
+       1 PPushes remaining with PInf 0.0000000e+00                 5s
+       0 PPushes remaining with PInf 0.0000000e+00                 5s
+
+  Push phase complete: Pinf 0.0000000e+00, Dinf 1.7789021e-04      5s
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+     723   -9.7969092e+02   0.000000e+00   1.778902e-04      5s
+     797   -9.7969092e+02   0.000000e+00   0.000000e+00      6s
+
+Solved in 797 iterations and 6.29 seconds (12.76 work units)
+Optimal objective -9.796909232e+02
+Objective: -979.6909232259507
+Solution: [array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(7.94183891), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-10.), array(-7.63276214), array(-10.), array(-10.), array(-10.)]
