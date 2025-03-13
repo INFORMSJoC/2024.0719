@@ -75,13 +75,13 @@ The source code is available in the [src](src) directory, which includes the fol
 The instances are randomly generated according to some rules. Please see the [data](data) directory to view the data. 
 This directory includes five folders: "random," "sensitivityanalyses," "JDE," "TTRS," and "unitbox." 
 
-The "random" folder includes all randomly generated instances. Each instance (denoted by "N_M1_M2_E_I") represents a QCP problem with N variables, M1 convex constraints, and M2 non-convex constraints. Note that E is the number of nonnegative eigenvalues in the matrix and I is the instance id. 
+The "random" folder includes all randomly generated instances considering in Section 4.3. Each instance (denoted by "N_M1_M2_E_I") represents a QCP problem with N variables, M1 convex constraints, and M2 non-convex constraints. Note that E is the number of nonnegative eigenvalues in the matrix and I is the instance id. 
 
-The "sensitivityanalyses" folder includes all instances used for sensitivity analyses. Each instance (denoted by "N_M1_M2_E_I") represents a QCP problem with N variables, M1 convex constraints, and M2 non-convex constraints. Note that E is the number of nonnegative eigenvalues in the matrix and I is the instance id. 
+The "sensitivityanalyses" folder includes all instances used for sensitivity analyses considering in Section 4.4. Each instance (denoted by "N_M1_M2_E_I") represents a QCP problem with N variables, M1 convex constraints, and M2 non-convex constraints. Note that E is the number of nonnegative eigenvalues in the matrix and I is the instance id. 
 
-The "JDE" and "TTRS" folders include all instances of the joint decision and estimation (JDE) problem and the two-trust-region subproblem (TTRS). Each instance (denoted by "N_I") represents a corresponding problem with N variables. Note that I is the instance id.
+The "JDE" and "TTRS" folders include all instances of the joint decision and estimation (JDE) problem and the two-trust-region subproblem (TTRS) considering in Section 4.5. Each instance (denoted by "N_I") represents a corresponding problem with N variables. Note that I is the instance id.
 
-The "unitbox" folder includes all randomly generated unitbox instances. Each instance (denoted by "N_M_D_I") represents an unitbox QCP problem with N variables and M constraints. Note that D is the density (%) of the matrix and I is the instance id.
+The "unitbox" folder includes all randomly generated unitbox instances considering in Appendix F. Each instance (denoted by "N_M_D_I") represents an unitbox QCP problem with N variables and M constraints. Note that D is the density (%) of the matrix and I is the instance id.
 
 
 ## Results
