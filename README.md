@@ -79,9 +79,9 @@ The "random" folder includes all randomly generated instances considered in Sect
 
 The "sensitivityanalyses" folder includes all instances used for sensitivity analyses considered in Section 4.4. Each instance (denoted by "N_M1_M2_E_I") represents a QCP problem with N variables, M1 convex constraints, and M2 non-convex constraints. Note that E is the number of nonnegative eigenvalues in the matrix and I is the instance id. 
 
-The "JDE" and "TTRS" folders include all instances of the joint decision and estimation (JDE) problem and the two-trust-region subproblem (TTRS) considered in Section 4.5. Each instance (denoted by "N_I") represents a corresponding problem with N variables. Note that I is the instance id.
+The "JDE" and "TTRS" folders include all instances of the joint decision and estimation (JDE) problem and the two-trust-region subproblem (TTRS) considered in Section 4.5, respectively. Each instance (denoted by "N_I") represents a corresponding problem with N variables. Note that I is the instance id.
 
-The "unitbox" folder includes all randomly generated unitbox instances considered in Appendix F. Each instance (denoted by "N_M_D_I") represents an unitbox QCP problem with N variables and M constraints. Note that D is the density (%) of the matrix and I is the instance id.
+The "unitbox" folder includes all randomly generated unitbox instances considered in Appendix F. Each instance (denoted by "N_M_D_I") represents a unitbox QCP problem with N variables and M constraints. Note that D is the density (%) of the matrix and I is the instance id.
 
 
 ## Results
