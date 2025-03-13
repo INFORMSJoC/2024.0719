@@ -73,30 +73,30 @@ The source code is available in the [src](src) directory, which includes the fol
 ## Data 
 
 The instances are randomly generated according to some rules. Please see the [data](data) directory to view the data. 
-This directory includes five folders: "random," "sensitivityanalyses," "JDE," "TTRS," and "unitbox." 
+This directory includes five folders: "Random," "SensitivityAnalyses," "JDE," "TTRS," and "Unitbox." 
 
-The "random" folder includes all randomly generated instances considered in Section 4.3. Each instance (denoted by "N_M1_M2_E_I") represents a QCP problem with N variables, M1 convex constraints, and M2 non-convex constraints. Note that E is the number of nonnegative eigenvalues in the matrix and I is the instance id. 
+The "Random" folder includes all randomly generated instances considered in Section 4.3. Each instance (denoted by "N_M1_M2_E_I") represents a QCP problem with N variables, M1 convex constraints, and M2 non-convex constraints. Note that E is the number of nonnegative eigenvalues in the matrix and I is the instance id. 
 
-The "sensitivityanalyses" folder includes all instances used for sensitivity analyses considered in Section 4.4. Each instance (denoted by "N_M1_M2_E_I") represents a QCP problem with N variables, M1 convex constraints, and M2 non-convex constraints. Note that E is the number of nonnegative eigenvalues in the matrix and I is the instance id. 
+The "SensitivityAnalyses" folder includes all instances used for sensitivity analyses considered in Section 4.4. Each instance (denoted by "N_M1_M2_E_I") represents a QCP problem with N variables, M1 convex constraints, and M2 non-convex constraints. Note that E is the number of nonnegative eigenvalues in the matrix and I is the instance id. 
 
 The "JDE" and "TTRS" folders include all instances of the joint decision and estimation (JDE) problem and the two-trust-region subproblem (TTRS) considered in Section 4.5, respectively. Each instance (denoted by "N_I") represents a corresponding problem with N variables. Note that I is the instance id.
 
-The "unitbox" folder includes all randomly generated unitbox instances considered in Appendix F. Each instance (denoted by "N_M_D_I") represents a unitbox QCP problem with N variables and M constraints. Note that D is the density (%) of the matrix and I is the instance id.
+The "Unitbox" folder includes all randomly generated unitbox instances considered in Appendix F. Each instance (denoted by "N_M_D_I") represents a unitbox QCP problem with N variables and M constraints. Note that D is the density (%) of the matrix and I is the instance id.
 
 
 ## Results
 
 Please see the [results](results) directory to view the log information of Gurobi. 
-This directory includes five folders: "random," "sensitivityanalyses," "JDE," "TTRS," and "unitbox." 
+This directory includes five folders: "Random," "SensitivityAnalyses," "JDE," "TTRS," and "Unitbox." 
 
-The "random" folder records the log information of solving randomly generated instances considered in Section 4.3. This folder includes six folders: "Approximations," "Approximations2," "Gurobi," "lpRelax," "sdpRelax," and "socpRelax." In each folder, each file (named "N_M1_M2_E") records the log information of solving the corresponding approximation or original problem with N variables, M1 convex constraints, M2 non-convex constraints. Note that E is the number of nonnegative eigenvalues in the matrix. 
+The "Random" folder records the log information of solving randomly generated instances considered in Section 4.3. This folder includes six folders: "Approximations," "Approximations2," "Gurobi," "LP_Relax," "SDP_Relax," and "SOCP_Relax." In each folder, each file (named "N_M1_M2_E") records the log information of solving the corresponding approximation or original problem with N variables, M1 convex constraints, M2 non-convex constraints. Note that E is the number of nonnegative eigenvalues in the matrix. 
 
 
-The "sensitivityanalyses" folder records the log information of solving randomly generated instances used for sensitivity analyses considered in Section 4.4. This folder includes three folders: "Approximations," "Approximations2," and "Gurobi." In each folder, each file (named "N_M1_M2_E_A") records the log information of solving the corresponding approximation or original problem with N variables, M1 convex constraints, and M2 non-convex constraints. Note that E is the number of nonnegative eigenvalues in the matrix and A represents the parameter of the approximation quality ($\times 10^{-3}$), which is optional. 
+The "SensitivityAnalyses" folder records the log information of solving randomly generated instances used for sensitivity analyses considered in Section 4.4. This folder includes three folders: "Approximations," "Approximations2," and "Gurobi." In each folder, each file (named "N_M1_M2_E_A") records the log information of solving the corresponding approximation or original problem with N variables, M1 convex constraints, and M2 non-convex constraints. Note that E is the number of nonnegative eigenvalues in the matrix and A represents the parameter of the approximation quality ($\times 10^{-3}$), which is optional. 
 
 The "JDE" and "TTRS" folders record the log information of solving the joint decision and estimation (JDE) problem and the two-trust-region subproblem (TTRS) considered in Section 4.5. Both of them include three folders: "Approximations," "Approximations2," and "Gurobi." In each folder, each file (named "N") records the log information of solving the corresponding approximation or original problem with N variables. 
 
-The "unitbox" folder records the log information of solving randomly generated unitbox instances considered in Appendix F. This folder includes six folders: "Approximations," "Approximations2," "Gurobi," "lpRelax," "sdpRelax," and "socpRelax." In each folder, each file (named "N_M_D") records the log information of solving the corresponding approximation or original problem with N variables and M constraints. Note that D is the density (%) of the matrix.
+The "Unitbox" folder records the log information of solving randomly generated unitbox instances considered in Appendix F. This folder includes six folders: "Approximations," "Approximations2," "Gurobi," "LP_Relax," "SDP_Relax," and "SOCP_Relax." In each folder, each file (named "N_M_D") records the log information of solving the corresponding approximation or original problem with N variables and M constraints. Note that D is the density (%) of the matrix.
 
 
 ## Run
