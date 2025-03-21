@@ -27,7 +27,7 @@ Below is the BibTex for citing this snapshot of the repository.
   year =          {2025},
   doi =           {10.1287/ijoc.2024.0719.cd},
   url =           {https://github.com/INFORMSJoC/2024.0719},
-  note =          {Available for download at \url{https://doi.org/10.1287/ijoc/2024.0719.cd}, \url{https://github.com/INFORMSJoC/2024.0719}},
+  note =          {Available for download at https://github.com/INFORMSJoC/2024.0719},
 }  
 ```
 
